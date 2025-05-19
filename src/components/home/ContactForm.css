@@ -62,7 +62,9 @@
   }
   @media (max-width: 991px) {
     .contact-form {
-      width: 90%;
+          height: 948px;
+    max-width: 717px;
+    margin: 0 auto;
     }
   }
   @media (max-width: 640px) {

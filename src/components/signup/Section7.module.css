@@ -18,7 +18,7 @@
 @media (width<=991px){.img{margin-left:6px}}
 .themoreyoupractice{letter-spacing:-.96px;margin-top:100px;line-height:1}
 @media (width<=991px){.themoreyoupractice{max-width:100%;margin-top:40px;font-size:40px}}
-.thebetteryoubecome{letter-spacing:-.96px;line-height:1}
+.thebetteryoubecome{letter-spacing:-.96px;line-height:2}
 @media (width<=991px){.thebetteryoubecome{max-width:100%;font-size:40px}}
 .div3{    margin-right: 400px;white-space:nowrap;flex-wrap:wrap;justify-content:center;align-items:center;gap:12px;margin-top:40px;font-family:Geologica,-apple-system,Roboto,Helvetica,sans-serif;font-size:16px;font-weight:300;display:flex}
 @media (width<=991px){.div3{max-width:100%;white-space:initial;margin-right:10px}}
@@ -32,7 +32,12 @@
 .div6{align-self:stretch;width:4px;margin-top:auto;margin-bottom:auto;font-size:12px;line-height:2}
 .coding{color:#999;background-color:#fff;border:2px solid #9996;border-radius:52px;align-self:stretch;gap:8px;width:152px;max-width:152px;min-height:52px;margin-top:auto;margin-bottom:auto;padding:14px 24px}
 @media (width<=991px){.coding{white-space:initial;padding-left:20px;padding-right:20px}}
-.img3{aspect-ratio:1.06;object-fit:contain;object-position:center;width:80%;margin-top:27px;margin-left:14px}
+.img3{    aspect-ratio: 1.06;
+    object-fit: contain;
+    object-position: center;
+    width: 68%;
+    margin-top: 2px;
+    margin-left: 14px;}
 @media (width<=991px){.img3{max-width:100%;margin-right:2px}}
 .column2{flex-direction:column;align-items:stretch;width:50%;margin-left:20px;line-height:normal;display:flex}
 @media (width<=991px){.column2{width:100%}}
@@ -124,12 +129,20 @@
     height: auto;
 }
 
-
 .motivationTextWrapper {
-  font-family: 'Space Grotesk', sans-serif;
-  width: 100%; /* or your custom value like 300px */
-  height: auto; /* or a fixed height like 120px */
-  padding: 10px;
+    margin-left: 93px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    max-width: 356px;
+    line-height: 1.4;
+    padding: 8px;
+}
+@media (max-width: 768px) {
+  .motivationTextWrapper {
+    font-size: 16px;
+    max-width: 90%;
+    padding: 6px;
+  }
 }
 
 
